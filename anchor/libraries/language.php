@@ -83,7 +83,7 @@ class language
      */
     private static function path($file)
     {
-        $language = Config::app('language', 'en_GB');
+        $language = Config::app('language', 'zh_CN');
 
         return APP . 'language/' . $language . '/' . $file . '.php';
     }
