@@ -1,48 +1,34 @@
 <?php
-
-return [
-
-    'pages' => 'Pages',
-
-    'create_page'      => 'Create a new page',
-    'nopages_desc'     => 'You don’t have any pages.',
-    'redirect'         => 'Redirect',
-
+return array(
+    'pages' => '页面',
+    'create_page' => '新建页面',
+    'nopages_desc' => '还没有页面.',
+    'redirect' => '重定向',
     // form fields
-    'redirect_url'     => 'Redirect Url',
-    'redirect_missing' => 'Please enter a valid url',
-
-    'title'         => 'Page title',
+    'redirect_url' => '重定向URL',
+    'redirect_missing' => '请输入一个有效的URL',
+    'title' => '页面标题',
     'title_explain' => '',
-    'title_missing' => 'The title of this page must be atleast 3 characters',
-
-    'content'         => 'Content',
-    'content_explain' => 'Your page’s content. Uses Markdown.',
-
-    'show_in_menu'         => 'Show In Menu',
+    'title_missing' => '页面标题至少应包含3个字符',
+    'content' => '内容',
+    'content_explain' => '页面内容.使用 Markdown.',
+    'show_in_menu' => '在导航中显示',
     'show_in_menu_explain' => '',
-
-    'name'         => 'Name',
+    'name' => '名称',
     'name_explain' => '',
-
-    'slug'           => 'Slug',
-    'slug_explain'   => 'Slug uri to identify your page, should only contain ascii characters',
-    'slug_missing'   => 'The slug must be atleast 3 characters, slugs can only contain ascii characters',
-    'slug_duplicate' => 'Slug already exists',
-    'slug_invalid'   => 'Slug must contain letters',
-
-    'status'         => 'Status',
+    'slug' => 'URI别名',
+    'slug_explain' => '页面的URI别名,只能包含 ASCII 字符',
+    'slug_missing' => 'URI别名至少应包含3个字符,只能包含 ASCII 字符',
+    'slug_duplicate' => 'URI别名已存在',
+    'slug_invalid' => 'URI别名必须包含字母',
+    'status' => '状态',
     'status_explain' => '',
-
-    'parent'         => 'Parent',
+    'parent' => '父页',
     'parent_explain' => '',
-
-    'pagetype'         => 'Page Type',
-    'pagetype_explain' => 'Select the page type this page best belongs to.',
-
+    'pagetype' => '页面类型',
+    'pagetype_explain' => '请选择这个页面所属的类型',
     // messages
-    'updated'          => 'Your page was updated.',
-    'created'          => 'Your page was created.',
-    'deleted'          => 'Your page was deleted.'
-
-];
+    'updated' => '页面已更新.',
+    'created' => '页面已新建.',
+    'deleted' => '页面已删除.'
+);

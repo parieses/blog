@@ -1,51 +1,36 @@
 <?php
-
-return [
-
-    'posts' => 'Posts',
-
-    'create_post'   => 'Create a new post',
-    'noposts_desc'  => 'You don’t have any posts!',
-
+return array(
+    'posts' => '文章',
+    'create_post' => '发表文章',
+    'noposts_desc' => '还没有文章！',
     // form fields
-    'title'         => 'Post title',
+    'title' => '标题',
     'title_explain' => '',
-    'title_missing' => 'The title of this post must be atleast 3 characters',
-
-    'content'         => 'Post Content',
-    'content_explain' => 'Just write.',
-
-    'slug'           => 'Slug',
-    'slug_explain'   => 'Slug uri to identify your post, should only contain ascii characters',
-    'slug_missing'   => 'The slug must be atleast 3 characters, slugs can only contain ascii characters',
-    'slug_duplicate' => 'Slug already exists',
-    'slug_invalid'   => 'Slug must contain letters',
-
-    'time'         => 'Published on (GMT)',
-    'time_explain' => 'Pattern: YYYY-MM-DD HH:MM:SS',
-    'time_invalid' => 'Invalid time pattern',
-
-    'description'         => 'Description',
+    'title_missing' => '标题至少应包含3个字符',
+    'content' => '正文',
+    'content_explain' => '',
+    'slug' => 'URI别名',
+    'slug_explain' => '文章的URI别名,只能包含 ASCII 字符',
+    'slug_missing' => 'URI别名至少应包含3个字符,只能包含 ASCII 字符',
+    'slug_duplicate' => 'URI别名已存在',
+    'slug_invalid' => 'URI别名必须包含字母',
+    'time' => '发布时间(GMT)',
+    'time_explain' => '格式: YYYY-MM-DD HH:MM:SS',
+    'time_invalid' => '无效时间格式',
+    'description' => '描述',
     'description_explain' => '',
-
-    'status'         => 'Status',
+    'status' => '状态',
     'status_explain' => '',
-
-    'category'         => 'Category',
+    'category' => '分类',
     'category_explain' => '',
-
-    'allow_comments'         => 'Allow Comments',
+    'allow_comments' => '允许评论',
     'allow_comments_explain' => '',
-
-    'custom_css'         => 'Custom CSS',
+    'custom_css' => '自定义 CSS',
     'custom_css_explain' => '',
-
-    'custom_js'         => 'Custom JS',
+    'custom_js' => '自定义 JS',
     'custom_js_explain' => '',
-
     // messages
-    'updated'           => 'Your article has been updated',
-    'created'           => 'Your new article was created',
-    'deleted'           => 'Your article has been deleted'
-
-];
+    'updated' => '文章已更新',
+    'created' => '文章已新建',
+    'deleted' => '文章已删除'
+);

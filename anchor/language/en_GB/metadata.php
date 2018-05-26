@@ -1,50 +1,34 @@
 <?php
-
-return [
-
-    'metadata'      => 'Site Settings',
-    'metadata_desc' => 'Manage your site settings',
-
-    'comment_settings' => 'Comments',
-    'theme_settings'   => 'Appearance',
-
+return array(
+    'metadata' => '站点设置',
+    'metadata_desc' => '管理站点设置',
+    'comment_settings' => '回复',
+    'theme_settings' => '模版',
     // form fields
-    'sitename'         => 'Site name',
+    'sitename' => '站点名称',
     'sitename_explain' => '',
-    'sitename_missing' => 'Your site needs a name!',
-
-    'sitedescription'         => 'Site description',
-    'sitedescription_explain' => 'A description of your site',
-    'sitedescription_missing' => 'Your site needs a description!',
-
-    'homepage'         => 'Home Page',
+    'sitename_missing' => '您的网站需要一个名字！',
+    'sitedescription' => '站点描述',
+    'sitedescription_explain' => '',
+    'sitedescription_missing' => '您的网站需要一个描述！',
+    'homepage' => '首页',
     'homepage_explain' => '',
-
-    'postspage'         => 'Posts Page',
+    'postspage' => '文章页',
     'postspage_explain' => '',
-
-    'dashboard_page'         => 'Dashboard Page',
-    'dashboard_page_explain' => 'Default dashboard page',
-
-    'posts_per_page'         => 'Posts per page',
+    'dashboard_page' => '仪表板页',
+    'dashboard_page_explain' => '',
+    'posts_per_page' => '每页文章数',
     'posts_per_page_explain' => '',
-
-    'show_all_posts'         => 'Show all posts',
-    'show_all_posts_explain' => 'Grab posts without pagination (could be slow)',
-
-    'auto_publish_comments'         => 'Auto-allow comments',
+    'show_all_posts' => '显示所有文章',
+    'show_all_posts_explain' => '不再分页（可能会变慢）',
+    'auto_publish_comments' => '自动批准评论',
     'auto_publish_comments_explain' => '',
-
-    'comment_notifications'         => 'Email notification for new comments',
+    'comment_notifications' => '新评论邮件通知',
     'comment_notifications_explain' => '',
-
-    'comment_moderation_keys'         => 'Spam keywords',
-    'comment_moderation_keys_explain' => 'Comma separated list of keywords to blacklist against. Comments will automatically be set as spam.',
-
-    'current_theme'         => 'Current theme',
+    'comment_moderation_keys' => '垃圾信息关键词',
+    'comment_moderation_keys_explain' => '黑名单关键词用逗号分隔，符合的评论将被自动设置为垃圾评论。',
+    'current_theme' => '模版',
     'current_theme_explain' => '',
-
     // messages
-    'updated'               => 'Metadata updated',
-
-];
+    'updated' => '站点信息已更新',
+);

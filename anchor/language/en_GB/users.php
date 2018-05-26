@@ -1,67 +1,50 @@
 <?php
-
-return [
-
-    'users' => 'Users',
-
-    'create_user'           => 'Create a new user',
-    'add_user'              => 'Add a new user',
-    'editing_user'          => 'Editing %s&rsquo;s Profile',
-    'remembered'            => 'I know my password',
-    'forgotten_password'    => 'Forgotten your password?',
-
+return array(
+    'users' => '用户',
+    'create_user' => '新建用户',
+    'add_user' => '添加新用户',
+    'editing_user' => '编辑用户 %s&rsquo;s Profile',
+    'remembered' => '我记得密码',
+    'forgotten_password' => '忘记密码了？',
     // roles
-    'administrator'         => 'Admin',
+    'administrator' => '管理员',
     'administrator_explain' => '',
-
-    'editor'         => 'Editor',
+    'editor' => '编辑',
     'editor_explain' => '',
-
-    'user'              => 'User',
-    'user_explain'      => '',
-
+    'user' => '用户',
+    'user_explain' => '',
     // form fields
-    'real_name'         => 'Real Name',
+    'real_name' => '真实姓名',
     'real_name_explain' => '',
-
-    'bio'         => 'Biography',
+    'bio' => '简介',
     'bio_explain' => '',
-
-    'status'         => 'Status',
+    'status' => '状态',
     'status_explain' => '',
-
-    'role'         => 'Role',
+    'role' => '角色',
     'role_explain' => '',
-
-    'username'         => 'Username',
+    'username' => '用户名',
     'username_explain' => '',
-    'username_missing' => 'Please enter a username, must be at least %s characters',
-
-    'password'           => 'Password',
-    'password_explain'   => '',
-    'password_too_short' => 'Password must be at least %s characters',
-
-    'new_password' => 'New Password',
-
-    'email'            => 'Email',
-    'email_explain'    => '',
-    'email_missing'    => 'Please enter a valid email address',
-    'email_not_found'  => 'Profile not found.',
-
+    'username_missing' => '请输入一个不短于 %s 个字符的用户名',
+    'password' => '密码',
+    'password_explain' => '',
+    'password_too_short' => '请输入一个不短于 %s 个字符的密码',
+    'new_password' => '新密码',
+    'email' => 'Email地址',
+    'email_explain' => '',
+    'email_missing' => '请输入一个有效的Email地址',
+    'email_not_found' => '找不到个人资料',
     // messages
-    'updated'          => 'User profile updated.',
-    'created'          => 'User profile created.',
-    'deleted'          => 'User profile deleted.',
-    'delete_error'     => 'You cannot delete your own profile',
-    'login_error'      => 'Username or password is wrong.',
-    'logout_notice'    => 'You are now logged out.',
-    'recovery_sent'    => 'We have sent you an email to confirm your password change.',
-    'recovery_expired' => 'Password recovery token has expired, please try again.',
-    'password_reset'   => 'Your new password has been set. Go and login now!',
-
+    'updated' => '用户资料已更新.',
+    'created' => '用户资料已新建.',
+    'deleted' => '用户资料已删除.',
+    'delete_error' => '您不能删除自己的个人资料',
+    'login_error' => '用户名或密码错误',
+    'logout_notice' => '您已注销',
+    'recovery_sent' => '已向您发送了一封邮件来确认密码重置',
+    'recovery_expired' => '密码重置令牌已过期，请重试',
+    'password_reset' => '新密码已设置，可以登录啦！',
     // password recovery email
-    'recovery_subject' => 'Password Reset',
-    'recovery_message' => 'You have requested to reset your password.' .
-                          'To continue follow the link below.' . PHP_EOL . '%s',
-
-];
+    'recovery_subject' => '密码重置',
+    'recovery_message' => '您要求重置密码。' .
+        '若要继续，请点击此链接' . PHP_EOL . '%s',
+);

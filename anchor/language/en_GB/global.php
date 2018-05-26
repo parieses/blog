@@ -1,90 +1,68 @@
 <?php
-
 /*
  * Global is to replace common.php
  *
  * This global file will provide the majority of the translations in anchor
  * to remove duplicate translations in section specific language files.
  */
-return [
-
+return array(
     // words
-    'save'      => 'Save',
-    'saving'    => 'Saving...',
-    'delete'    => 'Delete',
-    'deleting'  => 'Deleting...',
-    'update'    => 'Update',
-    'updating'  => 'Updating...',
-    'edit'      => 'Edit',
-    'editing'   => 'Editing',
-    'create'    => 'Create',
-    'created'   => 'Created',
-    'submit'    => 'Submit',
-    'close'     => 'Close',
-    'status'    => 'Status',
-    'manage'    => 'Manage',
-    'reset'     => 'Reset',
-    'all'       => 'All',
-    'cancel'    => 'Cancel',
-    'error'     => 'Error',
-
+    'save' => '保存',
+    'saving' => '正在保存…',
+    'delete' => '删除',
+    'deleting' => '正在删除…',
+    'update' => '更新',
+    'updating' => '正在更新…',
+    'edit' => '编辑',
+    'editing' => '编辑中',
+    'create' => '新建',
+    'created' => '已新建',
+    'submit' => '提交',
+    'close' => '关闭',
+    'status' => '状态',
+    'manage' => '管理',
+    'reset' => '重置',
+    'all' => '所有',
+    'cancel' => '取消',
     // pagination
-    'next'      => 'Next',
-    'previous'  => 'Previous',
-    'first'     => 'First',
-    'last'      => 'Last',
-
+    'next' => '下一页',
+    'previous' => '上一页',
+    'first' => '第一页',
+    'last' => '最后一页',
     // statuses
-    'draft'     => 'Draft',
-    'archived'  => 'Archived',
-    'published' => 'Published',
-    'pending'   => 'Pending',
-    'approved'  => 'Approved',
-    'spam'      => 'Spam',
-
-    'inactive'      => 'Inactive',
-    'active'        => 'Active',
-
+    'draft' => '草稿',
+    'archived' => '存档',
+    'published' => '发布',
+    'pending' => '待定',
+    'approved' => '批准',
+    'spam' => '垃圾信息',
+    'inactive' => '禁用',
+    'active' => '启用',
     // roles
-    'administrator' => 'Admin',
-    'editor'        => 'Editor',
-    'user'          => 'User',
-
-    'log_in'                    => 'Log in',
-    'login'                     => 'Login',
-    'log_out'                   => 'Log out',
-    'logout'                    => 'Logout',
-
-    // phrases
-    'visit_your_site'           => 'Visit your site',
-    'powered_by_anchor'         => 'Powered by Anchor, version %s',
-    'make_blogging_beautiful'   => 'Make blogging beautiful',
-    'error_phrase'              => 'Oh no! Your Anchor has gotten caught on something...',
-    'error_button'              => 'Get me out of here!',
-
+    'administrator' => '管理员',
+    'editor' => '编辑',
+    'user' => '用户',
+    'log_in' => '登录',
+    'login' => '登录',
+    'log_out' => '注销',
+    'logout' => '注销',
+    // pharses
+    'visit_your_site' => '访问站点首页',
+    'powered_by_anchor' => 'Powered by Anchor, version %s',
+    'make_blogging_beautiful' => 'Make blogging beautiful.',
     // intro
-    'welcome_to_anchor'         => 'Welcome to Anchor',
-    'welcome_to_anchor_lets_go' => 'Welcome to Anchor. Let’s go.',
-    'run_the_installer'         => 'Run the installer',
-
+    'welcome_to_anchor' => '欢迎来到 Anchor',
+    'welcome_to_anchor_lets_go' => '欢迎来到 Anchor。让我们开始吧。',
+    'run_the_installer' => '运行安装向导',
     // upgrade
-    'upgrade'                   => 'Upgrade',
-    'upgrading'                 => 'Upgrading...',
-    'good_news'                 => 'Great News!',
-    'new_version_available'     => 'There\'s a new version of anchor available.',
-    'up_to_date'                => 'You\'re up to date. Your Anchor is showing no signs of rust!',
-    'better_version'            => 'You must\'ve snapped up a futuristic Anchor! The newest version is below your version number.',
-    'download_now'              => 'Download Now',
-    'upgrade_later'             => 'Upgrade Later',
-    'upgrade_good'              => 'Anchor successfully upgraded!',
-    'upgrade_bad'               => 'Anchor couldn\'t quite get to the latest version...',
-    'upgrade_finished_thanks'   => 'Sweet, thanks!',
-
+    'upgrade' => '升级',
+    'good_news' => '好消息！',
+    'new_version_available' => '发现新版本',
+    'download_now' => '现在更新',
+    'upgrade_later' => '稍后更新',
     // debug profiler
-    'profile'                   => 'Profile',
-    'profile_memory_usage'      => 'Total memory usage',
-
+    'profile' => '统计',
+    'profile_memory_usage' => '内存使用量',
     // messages
-    'confirm_delete'            => 'Are you sure you want to delete? This can’t be undone!'
-
-];
+    'confirm_delete' => '确定要删除吗？操作无法撤销！'
+);

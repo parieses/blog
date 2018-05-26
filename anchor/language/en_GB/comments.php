@@ -1,34 +1,26 @@
 <?php
-
-return [
-    'comments'        => 'Comments',
-    'nocomments_desc' => 'No comments yet.',
-    'editing_comment' => 'Editing comment',
-    'view_comment'    => 'View comment',
-
+return array(
+    'comments' => '评论',
+    'nocomments_desc' => '还没有评论',
+    'editing_comment' => '编辑评论',
+    'view_comment' => '查看评论',
     // form fields
-    'name'            => 'Name',
-    'name_explain'    => 'Author name',
-    'name_missing'    => 'Please enter a name',
-
-    'email'         => 'Email address',
-    'email_explain' => 'Author email',
-    'email_missing' => 'Please enter a valid email address', // frontend message (appears on your site!)
-
-    'text'         => 'Comment',
+    'name' => '名字',
+    'name_explain' => '您的名字',
+    'name_missing' => '请输入名字',
+    'email' => '邮件地址',
+    'email_explain' => '您的电子邮件地址',
+    'email_missing' => '请输入有效的电子邮件地址', // frontend message (appears on your site!)
+    'text' => '评论',
     'text_explain' => '',
-    'text_missing' => 'Please enter comment text', // frontend message (appears on your site!)
-
-    'status'         => 'Status',
+    'text_missing' => '请输入评论内容', // frontend message (appears on your site!)
+    'status' => '状态',
     'status_explain' => '',
-
     // messages
-    'created'        => 'Your comment has been added', // frontend message (appears on your site!)
-    'updated'        => 'Your comment has been updated',
-    'deleted'        => 'Your comment has been deleted',
-
+    'created' => '评论已添加', // frontend message (appears on your site!)
+    'updated' => '评论已更新',
+    'deleted' => '评论已删除',
     // email notification
-    'notify_subject' => 'New comment has been added',
-    'nofity_heading' => 'A new comment has been submitted to your site.'
-
-];
+    'notify_subject' => '有新评论',
+    'nofity_heading' => '您的站点有新评论'
+);

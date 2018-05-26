@@ -1,8 +1,5 @@
 <?php
-
-return [
-
-    'menu'      => 'Menu',
-    'edit_menu' => 'Edit menu'
-
-];
+return array(
+    'menu'        => '导航栏',
+    'edit_menu' => '编辑导航栏'
+);
