@@ -74,7 +74,14 @@ function twitter_url()
 {
     return 'https://twitter.com/' . twitter_account();
 }
-
+function facebook_account()
+{
+    return site_meta('facebook', 'itwll');
+}
+function facebook_url()
+{
+    return 'https//www.facebook.com/' . facebook_account();
+}
 function total_articles()
 {
     return total_posts();
