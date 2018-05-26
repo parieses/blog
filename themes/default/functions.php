@@ -67,7 +67,7 @@ function relative_time($date)
 
 function twitter_account()
 {
-    return site_meta('twitter', 'idiot');
+    return site_meta('twitter', 'Mr_liangs');
 }
 
 function twitter_url()
