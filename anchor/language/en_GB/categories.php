@@ -1,20 +1,27 @@
 <?php
-return array(
-    'category' => '分类',
-    'categories' => '分类',
-    'create_category' => '新建分类',
-    'edit_category' => '编辑分类 &ldquo;%s&rdquo;',
+
+return [
+    'category'   => 'Category',
+    'categories' => 'Categories',
+
+    'create_category' => 'Create a new category',
+    'edit_category'   => 'Editing &ldquo;%s&rdquo;',
+
     // form fields
-    'title' => '标题',
-    'title_explain' => '分类标题',
-    'title_missing' => '请输入分类标题',
-    'slug' => 'URI别名',
-    'slug_explain' => '分类URI别名',
-    'description' => '描述',
-    'description_explain' => '分类的描述',
+    'title'           => 'Title',
+    'title_explain'   => 'Your category title.',
+    'title_missing'   => 'Please enter a title, it must be a minimum of 3 characters.',
+
+    'slug'         => 'Slug',
+    'slug_explain' => 'The slug for your category.',
+
+    'description'         => 'Description',
+    'description_explain' => 'What your category is about.',
+
     // messages
-    'created' => '分类已新建',
-    'updated' => '分类已更新',
-    'deleted' => '分类已删除',
-    'delete_error' => '至少要有一个分类',
-);
+    'created'             => 'Your new category has been added.',
+    'updated'             => 'Your category has been updated.',
+    'deleted'             => 'Your category has been deleted.',
+    'delete_error'        => 'You must have at least one category.',
+
+];
