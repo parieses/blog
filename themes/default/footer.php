@@ -6,6 +6,7 @@
 	                    <li><a href="<?php echo rss_url(); ?>">RSS</a></li>
 	                    <?php if (twitter_account()): ?>
 	                    <li><a href="<?php echo twitter_url(); ?>">@<?php echo twitter_account(); ?></a></li>
+                        <li><a href="tencent://message/?uin=1695699447&Site=&Menu=yes">QQ</a>  </li>
 	                    <?php endif; ?>
 
 	                    <li><a href="<?php echo base_url('admin'); ?>" title="Administer your site!">Admin area</a></li>
