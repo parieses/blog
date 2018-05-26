@@ -11,7 +11,6 @@
                             <li><a href="<?php echo facebook_url(); ?>">@<?php echo facebook_account(); ?></a></li>
                         <?php endif; ?>
                         <li><a href="tencent://message/?uin=1695699447&Site=&Menu=yes">QQ</a>  </li>
-
 	                    <li><a href="<?php echo base_url('admin'); ?>" title="Administer your site!">Admin area</a></li>
 
 	                    <li><a href="<?php echo base_url(); ?>" title="Return to my website.">Home</a></li>
