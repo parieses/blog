@@ -80,7 +80,7 @@ function facebook_account()
 }
 function facebook_url()
 {
-    return 'https//www.facebook.com/itwll';
+    return 'https//www.facebook.com/' . facebook_account();
 }
 function total_articles()
 {
